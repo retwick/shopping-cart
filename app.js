@@ -11,7 +11,7 @@ var expressHbs = require('express-handlebars');
 var index = require('./routes/index');
 
 var app = express();
-mongoose.connect('localhost:27017/shopping-cart');
+mongoose.connect('localhost:27017/cart');
 
 // view engine setup
 app.engine('hbs', expressHbs({defaultLayout: 'layout', extname: '.hbs'}));
