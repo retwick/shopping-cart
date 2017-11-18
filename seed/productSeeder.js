@@ -23,7 +23,16 @@ var product = [
 		title:'Dillion Harper',
 		description:'awww',
 		price:'30'
+	}),
+
+	new Product({
+		imagePath:'https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/the-foundations-of-a-healthy-kathrain-lovely.jpg',
+		title:'Riley Reid',
+		description:'You dont need to be giant',
+		price:'50'
 	})
+
+
 ];
 
 for (var i = product.length - 1; i >= 0; i--) {
